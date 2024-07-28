@@ -1,0 +1,6 @@
+{
+  "/api": {
+    "target": "https://joldibaev.uz/api/",
+    "secure": false
+  }
+}

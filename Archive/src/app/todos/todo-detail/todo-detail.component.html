@@ -1,0 +1,18 @@
+<!-- src/app/todos/todo-detail/todo-detail.component.html -->
+
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h2>Todo Detail</h2>
+        </div>
+        <div class="card-body">
+          <h3>{{ todo.title }}</h3>
+          <p>{{ todo.description }}</p>
+          <button class="btn btn-primary btn-sm" [routerLink]="['/todos/edit', todo.id]">Edit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

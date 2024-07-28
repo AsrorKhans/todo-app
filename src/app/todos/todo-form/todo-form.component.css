@@ -1,0 +1,13 @@
+.container {
+  max-width: 500px;
+}
+
+.card-header {
+  background-color: #ffc107;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
